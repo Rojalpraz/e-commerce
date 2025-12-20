@@ -15,7 +15,7 @@ function Navbar() {
     
       <nav className="max-w-7xl w-full top-0 z-50 fixed bg-white border-b border-gray-700/40">
         <div className=" px-5 py-3 flex items-center justify-between">
-          <img src="/logo.svg" className="h-11 w-11" alt="Logo" />
+         <Link to="/"> <img src="/logo.svg" className="h-11 w-11" alt="Logo" /></Link>
           <div className="hidden md:flex md:gap-3">
             <Link to="/"> Home </Link>
             <a> About Us </a>
