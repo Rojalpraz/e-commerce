@@ -41,7 +41,7 @@ function Shop() {
             onChange={handleSearch}
           />
         </div>
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-8">
           {cards
             .filter((card) =>
               card.title.toLowerCase().includes(search.toLowerCase())

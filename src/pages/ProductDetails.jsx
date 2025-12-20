@@ -17,8 +17,8 @@ function ProductDetails() {
   return (
     <div className="max-w-7xl mx-auto ">
       
-      <div className="flex lg:mx-25 lg:mt-35 m-7 gap-10 flex-col lg:grid lg:grid-cols-2 lg:gap-14  ">
-        <div className="h-[480px] bg-neutral-200 rounded-lg p-5">
+      <div className="flex lg:mx-25 lg:mt-35 mx-7 mt-14 gap-10 flex-col lg:grid lg:grid-cols-2 lg:gap-14  ">
+        <div className="md:h-[480px] h-[370px] bg-neutral-200 rounded-lg p-5">
           <img
             className="w-full h-full object-contain"
             src={product.image}
