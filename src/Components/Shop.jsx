@@ -41,7 +41,7 @@ function Shop() {
             onChange={handleSearch}
           />
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-8">
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-8">
           {cards
             .filter((card) =>
               card.title.toLowerCase().includes(search.toLowerCase())
@@ -52,7 +52,7 @@ function Shop() {
               
                 className="bg-white shadow-lg border border-gray-400 shadow-neutral-400 rounded-2xl overflow-hidden flex flex-col"
               >
-                <div className=" h-35 md:h-48 hover:cursor-pointer hover:scale-110 transition-all  relative bg-gray-100 flex items-center justify-center p-4">
+                <div className=" h-24 md:h-48 hover:cursor-pointer hover:scale-110 transition-all  relative bg-gray-100 flex items-center justify-center p-2 md:p-4">
                   <img
                   onClick={() => handleimageclick(card.id)}
                     src={card.image}
@@ -66,12 +66,12 @@ function Shop() {
                     <SquarePlus className="h-8 w-8 fill-gray-500 text-white" />
                   </button>
                 </div>
-                <div className="p-4 flex flex-col grow">
-                  <h3 className="font-semibold text-sm mb-2 line-clamp-2 h-10">
+                <div className="md:p-4 px-4 py-2 flex flex-col grow">
+                  <h3 className="font-semibold text-xs md:text-sm mb-2 line-clamp-2 h-8.5 md:h-10">
                     {card.title}
                   </h3>
 
-                  <p className="text-lg font-bold text-gray-900 mb-3">
+                  <p className=" text-sm md:text-lg font-bold text-gray-900 mb-3">
                     ${card.price}
                   </p>
                   <button
