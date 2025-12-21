@@ -11,9 +11,9 @@ function Banner() {
           className="w-full h-auto  object-contain"
         />
       </div>
-      <div className="bg-white border-b rounded-md border-gray-200 shadow-md">
-        <div className="lg:mx-10  lg:pt-15  lg:mb-15 lg:pl-0 my-5">
-          <div className="grid grid-cols-2 gap-5 justify-items-center  lg:flex lg:justify-between lg:items-start lg:gap-2">
+      <div className="bg-white border-b rounded-md border-gray-200 shadow-lg">
+        <div className="lg:mx-10   lg:pt-15 pt-4  lg:mb-15  my-5">
+          <div className="grid grid-cols-2 gap-x-36 space-y-4  justify-self-center lg:flex lg:justify-between lg:items-start lg:gap-2">
             <div className="  lg:flex lg:items-center lg:gap-2 ">
               <Van className="lg:w-9 lg:h-10 w-6 h-7 " />
               <div>
@@ -32,12 +32,12 @@ function Banner() {
                 </p>
               </div>
             </div>
-            <div className=" lg:flex lg:items-center lg:gap-2">
-              <RotateCcw className="lg:w-9 lg:h-10 w-6 h-7" />
+            <div className="  lg:flex lg:items-center lg:gap-2 ">
+              <RotateCcw className="lg:w-9 lg:h-10 w-6 h-7 " />
               <div>
-                <h1 className="font-semibold text-xs lg:text-lg">Satisfied or return</h1>
+                <h1 className="font-semibold text-xs lg:text-lg">Satisfied or Return</h1>
                 <p className="text-[8px] lg:text-sm text-gray-600">
-                  Easy 30-day return policy
+                    Easy 30-day return policy
                 </p>
               </div>
             </div>
