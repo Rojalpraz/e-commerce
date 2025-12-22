@@ -9,7 +9,7 @@ import Testimonials from "../Components/Testimonials";
 function Home() {
   return (
     
-      <div className="min-h-screen max-w-7xl mx-auto overflow-hidden bg-gray-100/40">
+      <div className="min-h-screen overflow-hidden bg-gray-100/40">
      
         <Banner />
         <Shop />

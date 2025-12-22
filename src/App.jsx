@@ -7,7 +7,7 @@ import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto w-full overflow-hidden">   
+    <div className=" w-full overflow-hidden">   
      <Navbar/>
     <Routes>
       <Route path="/" element={<Home />} />
