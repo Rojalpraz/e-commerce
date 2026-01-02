@@ -12,8 +12,8 @@ function Banner() {
         />
       </div>
       <div className="bg-white border-b rounded-md border-gray-200 shadow-lg">
-        <div className="lg:mx-10   lg:pt-15 pt-4  lg:mb-15  my-5">
-          <div className="grid grid-cols-2 gap-x-36 space-y-4  justify-self-center lg:flex lg:justify-between lg:items-start lg:gap-2">
+        <div className="lg:mx-10 mx-5  lg:pt-15 pt-4  lg:mb-15  my-5">
+          <div className="grid grid-cols-2 gap-x-36 space-y-4  justify-self-center lg:flex lg:justify-between lg:items-start lg:gap-11">
             <div className="  lg:flex lg:items-center lg:gap-2 ">
               <Van className="lg:w-9 lg:h-10 w-6 h-7 " />
               <div>
