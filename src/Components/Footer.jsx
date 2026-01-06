@@ -3,10 +3,10 @@ import { Twitter, Github, Linkedin, Mail } from 'lucide-react';
 
 function Footer() {
   return (
-    <footer className=" max-w-7xl mx-auto bg-slate-950 border-t border-gray-900 py-16 px-10 md:px-6 lg:px-8">
+    <footer className=" w-full  bg-slate-950 border-t border-gray-900 py-16 px-10 md:px-6 lg:px-8">
       
-      
-        <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-8 mb-16">
+      <div className='max-w-7xl mx-auto'>
+        <div className=" grid grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-8 mb-16">
        
           <div className=" space-y-7 col-span-2 md:col-span-3 lg:col-span-4">
            
@@ -92,7 +92,7 @@ function Footer() {
             <a href="#" className="text-gray-500 hover:text-sky-500 text-sm transition-colors">Cookie Settings</a>
           </div>
         </div>
-   
+   </div>
     </footer>
   );
 }
