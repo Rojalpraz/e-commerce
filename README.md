@@ -1,16 +1,65 @@
-# React + Vite
+# E-commerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 Live Demo
 
-Currently, two official plugins are available:
+Visit the live application: [https://e-commerce-rojal.vercel.app/](https://e-commerce-rojal.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Product Catalog**: Browse through a comprehensive collection of products with detailed information
+- **Search & Filter**: Advanced search and filtering options to find products quickly
+- **Shopping Cart**: Add, remove, and manage items in your cart
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Product Details**: Detailed product pages with images, descriptions, and pricing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Technologies Used
 
-## Expanding the ESLint configuration
+- **Frontend**: React.js
+- **Styling**:Tailwind CSS / Styled Components
+- **State Management**: Context API
+- **Deployment**: Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js (v14 or higher)
+- npm or yarn package manager
+- Git
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Rojalpraz/e-commerce.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd e-commerce
+```
+
+3. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+
+## 👤 Author
+
+**Rojal Prajapati**
+
+- GitHub: [@Rojalpraz](https://github.com/Rojalpraz)
+- Project Link: [https://github.com/Rojalpraz/e-commerce](https://github.com/Rojalpraz/e-commerce)
+
+Made by Rojal Prajapati
